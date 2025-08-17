@@ -6,3 +6,4 @@ result = 2**power
 last_digit = result % 10
 print(f"2 raised to the power of {power} is {result}")
 print(f"The last digit is : {last_digit}")
+
