@@ -10,3 +10,6 @@ if score>1000 or time>20:
     print('Game over')
 if not (score>1000 or time>20):
     print('Game continues.')
+if (score<1000 or time>20) and turn_remaining==0:
+    print('Game over')
+    
